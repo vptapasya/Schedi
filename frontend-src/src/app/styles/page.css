@@ -1,0 +1,20 @@
+/* page-specific styles (kept minimal) */
+.auth-card .input, .prefs-card .input {
+  border: 1px solid #dcdcdc;
+  background: #f6f7f7;
+  padding: 10px 12px;
+  border-radius: 4px;
+}
+.btn-primary{
+  background:#163f35;
+  color:white;
+  padding:8px 16px;
+  border-radius:20px;
+  text-decoration:none;
+}
+.bg-forest-dark{background:#123a34}
+.bg-accent-blue{background:#2fa4ff}
+.bg-pink{background:#f4b6d6}
+.bg-amber{background:#f3b25f}
+.text-muted{color:#6b6b6b}
+
