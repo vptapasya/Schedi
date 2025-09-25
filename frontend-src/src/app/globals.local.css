@@ -1,5 +1,0 @@
-/* extra globals used by the static pages */
-:root{--app-bg:#123a34;--app-back:#e9f2ee}
-.app-root{background:linear-gradient(180deg,#11413620,white)}
-.aside{background:var(--app-bg)}
-
