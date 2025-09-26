@@ -1,0 +1,180 @@
+{
+  "courses": [
+    {
+      "code": "CSE 231",
+      "title": "Introduction to Programming I",
+      "credits": 4,
+      "professor": "A Johnson",
+      "description": "Introduction to programming using Python.",
+      "prerequisites": ["None"],
+      "times": ["MWF 10:00-10:50", "TTh 2:00-3:20"],
+      "professorRating": 4.6,
+      "reviews": [
+        "Great introduction to programming",
+        "Professor explains concepts very clearly",
+        "Projects are engaging and practical"
+      ],
+      "color": "bg-blue-400"
+    },
+    {
+      "code": "CSE 232",
+      "title": "Introduction to Programming II",
+      "credits": 4,
+      "professor": "K Smith",
+      "description": "Continuation of object-centered design and implementation in C++.",
+      "prerequisites": ["CSE 231"],
+      "times": ["MWF 11:00-11:50", "TTh 1:00-2:20"],
+      "professorRating": 4.4,
+      "reviews": [
+        "Challenging transition from Python to C++",
+        "Object-oriented concepts well explained",
+        "Homework is time-consuming but valuable"
+      ],
+      "color": "bg-green-400"
+    },
+    {
+      "code": "CSE 260",
+      "title": "Discrete Structures in Computer Science",
+      "credits": 4,
+      "professor": "M Davis",
+      "description": "Propositional and first order logic.",
+      "prerequisites": ["CSE 231"],
+      "times": ["MWF 3:00-3:50", "TTh 11:00-12:20"],
+      "professorRating": 4.2,
+      "reviews": [
+        "Mathematical foundations are crucial",
+        "Logic proofs can be challenging",
+        "Professor provides good examples"
+      ],
+      "color": "bg-yellow-400"
+    },
+    {
+      "code": "CSE 300",
+      "title": "Social, Ethical, and Professional Issues in Computing",
+      "credits": 1,
+      "professor": "L Chen",
+      "description": "Professional responsibilities and informed judgments in computing practice based on legal and ethical principles.",
+      "prerequisites": ["CSE 232"],
+      "times": ["F 1:00-1:50"],
+      "professorRating": 4.7,
+      "reviews": [
+        "Important topics for CS professionals",
+        "Engaging case study discussions",
+        "Light workload but meaningful content"
+      ],
+      "color": "bg-purple-400"
+    },
+    {
+      "code": "CSE 320",
+      "title": "Computer Organization and Architecture",
+      "credits": 3,
+      "professor": "R Thompson",
+      "description": "Boolean algebra and digital logic.",
+      "prerequisites": ["CSE 232", "CSE 260"],
+      "times": ["MWF 9:00-9:50", "T 3:00-4:20"],
+      "professorRating": 4.1,
+      "reviews": [
+        "Hardware concepts can be abstract",
+        "Assembly language programming is tough",
+        "Good foundation for systems courses"
+      ],
+      "color": "bg-red-400"
+    },
+    {
+      "code": "CSE 325",
+      "title": "Computer Systems",
+      "credits": 3,
+      "professor": "S Patel",
+      "description": "Process and processor management.",
+      "prerequisites": ["CSE 320 or ECE 331"],
+      "times": ["TTh 9:30-10:50", "W 2:00-3:20"],
+      "professorRating": 4.5,
+      "reviews": [
+        "Systems programming is challenging",
+        "Great hands-on projects",
+        "Professor is very knowledgeable"
+      ],
+      "color": "bg-indigo-400"
+    },
+    {
+      "code": "CSE 331",
+      "title": "Algorithms and Data Structures",
+      "credits": 3,
+      "professor": "D Wilson",
+      "description": "Design, analysis, and application of fundamental algorithms and data structures in computer science.",
+      "prerequisites": ["CSE 232", "CSE 260 or ECE 331"],
+      "times": ["MWF 1:00-1:50", "Th 10:00-11:20"],
+      "professorRating": 4.3,
+      "reviews": [
+        "Core CS concepts covered thoroughly",
+        "Algorithm analysis can be complex",
+        "Programming assignments are well-designed"
+      ],
+      "color": "bg-teal-400"
+    },
+    {
+      "code": "CSE 335",
+      "title": "Object-oriented Software Design",
+      "credits": 3,
+      "professor": "J Martinez",
+      "description": "Development of large software products, libraries, and product families.",
+      "prerequisites": ["CSE 232", "CSE 260"],
+      "times": ["TTh 11:00-12:20", "F 3:00-4:20"],
+      "professorRating": 4.6,
+      "reviews": [
+        "Excellent software engineering practices",
+        "Team projects mirror industry work",
+        "Design patterns are very useful"
+      ],
+      "color": "bg-orange-400"
+    },
+    {
+      "code": "CSE 380",
+      "title": "Information Management and the Cloud",
+      "credits": 3,
+      "professor": "N Garcia",
+      "description": "Introduction to information management and cloud computing.",
+      "prerequisites": ["CSE 232", "CSE 260"],
+      "times": ["MWF 2:00-2:50", "T 1:00-2:20"],
+      "professorRating": 4.4,
+      "reviews": [
+        "Very relevant to current industry trends",
+        "Cloud platforms hands-on experience",
+        "Database concepts well explained"
+      ],
+      "color": "bg-cyan-400"
+    },
+    {
+      "code": "CSE 498",
+      "title": "Collaborative Design (W)",
+      "credits": 4,
+      "professor": "B Anderson",
+      "description": "Development of a comprehensive software and/or hardware solution to a problem in a team setting with emphasis on working with a client.",
+      "prerequisites": ["Multiple advanced CSE courses", "CSE 300", "CSE 325", "CSE 335", "CSE 380", "Tier I writing requirement"],
+      "times": ["TTh 2:00-3:50", "F 10:00-11:50"],
+      "professorRating": 4.8,
+      "reviews": [
+        "Capstone experience is invaluable",
+        "Real client projects are challenging",
+        "Great preparation for industry work"
+      ],
+      "color": "bg-pink-400"
+    },
+    {
+      "code": "STT 351",
+      "title": "Probability and Statistics for Engineering",
+      "credits": 3,
+      "professor": "C Rodriguez",
+      "description": "Introduction to information management and cloud computing.",
+      "prerequisites": ["MTH 234 or MTH 254H or LB 220"],
+      "times": ["MWF 12:00-12:50", "T 11:00-12:20"],
+      "professorRating": 4.0,
+      "reviews": [
+        "Statistics concepts are important for CS",
+        "Math-heavy but manageable",
+        "Applications to engineering problems"
+      ],
+      "color": "bg-emerald-400"
+    }
+  ]
+}
