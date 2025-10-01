@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X } from 'lucide-react';
-import courseData from '../data/courses.json';
+import courseData from '../../data/courses.json';
 
 const CourseCard = ({ course, onClick }) => (
   <div

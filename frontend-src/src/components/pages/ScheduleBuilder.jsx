@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { useDashboard } from '../context/DashboardContext';
+import { useDashboard } from '../../context/DashboardContext';
 import { X } from 'lucide-react';
 import { CourseModal } from './CourseCatalog';
-import allCourseData from '../data/courses.json';
+import allCourseData from '../../data/courses.json';
 
 const ScheduleBuilder = ({ dashboardData: propsDashboardData }) => {
   let context;

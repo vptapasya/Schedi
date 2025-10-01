@@ -4,8 +4,6 @@ import { DashboardProvider } from '../context/DashboardContext';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 
-
-
 export const metadata = {
   title: "Schedi - Static Prototype",
   description: "Static pages for the Schedi prototype",

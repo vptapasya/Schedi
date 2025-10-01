@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { mockDashboardData } from '../data/mockData';
+import { mockDashboardData } from '../../data/mockData';
 
 const Dashboard = () => {
   const [data, setData] = useState(null);

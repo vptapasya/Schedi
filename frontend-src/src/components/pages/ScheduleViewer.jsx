@@ -1,6 +1,6 @@
 import React from 'react';
-import scheduleData from '../data/schedi_plan_output.json';
-import { useDashboard } from '../context/DashboardContext';
+import scheduleData from '../../data/schedi_plan_output.json';
+import { useDashboard } from '../../context/DashboardContext';
 
 const ScheduleViewer = ({ dashboardData: propsDashboardData }) => {
   let context;

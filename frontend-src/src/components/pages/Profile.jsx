@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Settings, X } from 'lucide-react';
-import { useDashboard } from '../context/DashboardContext';
+import { useDashboard } from '../../context/DashboardContext';
 
 const Profile = ({ dashboardData: propsDashboardData, setDashboardData: propsSetDashboardData }) => {
   let context;

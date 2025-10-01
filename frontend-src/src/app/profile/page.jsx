@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import Profile from '../../pages/Profile';
+import Profile from '../../components/pages/Profile';
 
 export default function ProfilePage() {
   // When navigated directly, Profile expects dashboardData prop. The component reads from props,
